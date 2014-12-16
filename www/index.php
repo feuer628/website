@@ -4,7 +4,7 @@
     //массив для меню
     $menu=array ("about_company"=>"О компании",
                  "vacancies"=>"Вакансии",
-                 "teach"=>"Обучение",
+                 "careers"=>"Карьерный рост",
                  "student_info"=>"Информация для студентов",
                  "leisure"=>"Досуг",
                  "contacts"=>"Контакты",
@@ -13,7 +13,7 @@
     //массив для файлов
     $files=array("about_company"=>"about_company.php",
         "vacancies"=>"vacancies.php",
-        "teach"=>"teach.php",
+        "careers"=>"careers.php",
         "student_info"=>"student_info.php",
         "leisure"=>"leisure.php",
         "contacts"=>"contacts.php",
@@ -37,13 +37,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>My title</title>
+    <title>ИП Черемнов</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
-<div class="container contMarg50">
-    <!--<h1><a href="#">Bootstrap site11</a></h1>-->
+<div class="container contentPrepare">
 
     <!-- Панель навигации -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -72,10 +72,14 @@
 
 
     <div class="footer">
-        <p>
+        <div class="divLeft">
+            Адрес: Калуга, ул. Гагарина, д. 4, офис 513<br>
+            E-mail: cheremnov-kaluga.ru
+        </div>
+        <div class="divRight">
             ИП Черемнов Константин Владимирович<br>
             +7(920)615-63-89
-        </p>
+        </div>
     </div>
 </div>
 <script src="http://code.jquery-1.10.1.min.js"></script>

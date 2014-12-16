@@ -1,7 +1,6 @@
 .footer {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 9pt;
-    text-align: right;
     padding: 20px 15px;
     width: 100%;
     height: 40px;
@@ -9,6 +8,17 @@
     color: #808080;
 }
 
-.contMarg50 {
+.contentPrepare {
     margin-top: 50px;
+    //color: #5c707d;
+}
+
+.divRight {
+
+    text-align: right;
+}
+
+.divLeft {
+    position: absolute;
+    text-align: left;
 }
