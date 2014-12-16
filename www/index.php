@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 <body>
-<div class="container">
+<div class="container contMarg50">
     <!--<h1><a href="#">Bootstrap site11</a></h1>-->
 
     <!-- Панель навигации -->
