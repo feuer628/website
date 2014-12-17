@@ -22,3 +22,42 @@
     position: absolute;
     text-align: left;
 }
+
+.footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    text-align: right;
+    padding: 20px 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+    color: #808080;
+}
+
+.modal-header {
+	background: none repeat scroll 0 0 #95ce4e;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.width350 {
+    width: 350px;
+}
+
+.width380 {
+	width: 380px;
+}
+
+.width800 {
+	width: 800px;
+}
+
+div.modal-footer > p {
+    float: left;
+    text-align: left;
+    width: 500px;
+
+}
